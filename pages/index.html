@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Journal App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mood Journal</h1>
+        <div class="form">
+            <select id="mood">
+                <option value="happy">😊 Happy</option>
+                <option value="sad">😢 Sad</option>
+                <option value="neutral">😐 Neutral</option>
+                <option value="angry">😡 Angry</option>
+                <option value="excited">😃 Excited</option>
+            </select>
+            <textarea id="journal" placeholder="Write about your day..."></textarea>
+            <button id="add-entry">Add Entry</button>
+        </div>
+        <div class="entries">
+            <h2>Your Entries</h2>
+            <ul id="entry-list"></ul>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
