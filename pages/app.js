@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:10000/entries';
+const API_URL = 'https://mood-journal-app.onrender.com/entries';
 
 document.getElementById('add-entry').addEventListener('click', addEntry);
 
