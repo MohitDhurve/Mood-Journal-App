@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/entries';
+const API_URL = 'http://localhost:10000/entries';
 
 document.getElementById('add-entry').addEventListener('click', addEntry);
 
